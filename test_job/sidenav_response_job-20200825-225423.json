@@ -1,0 +1,14 @@
+{
+    "sidenav": {
+        "job_levels": [
+            "Owner",
+            "Founder",
+            "Partner",
+            "C-Level",
+            "V-Level",
+            "Director",
+            "Manager",
+            "Staff"
+        ]
+    }
+}
