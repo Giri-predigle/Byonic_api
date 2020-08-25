@@ -1,0 +1,82 @@
+{
+    "Domains": [
+        {
+            "sno": 233,
+            "industry": "Managed-Services-Provider",
+            "topic": "Data Automation",
+            "domain": "lbl.gov",
+            "employee_size": "10001+",
+            "job_level": "C-Level",
+            "ilead_grade": "A",
+            "bombora_score": 0,
+            "techno_score": 1,
+            "intent_signal": "C",
+            "country": "United Kingdom"
+        },
+        {
+            "sno": 234,
+            "industry": "Managed-Services-Provider",
+            "topic": "Data Automation",
+            "domain": "machineworks.com",
+            "employee_size": "11 to 50",
+            "job_level": "C-Level",
+            "ilead_grade": "A",
+            "bombora_score": 0,
+            "techno_score": 1,
+            "intent_signal": "C",
+            "country": "United States"
+        },
+        {
+            "sno": 235,
+            "industry": "Managed-Services-Provider",
+            "topic": "Data Automation",
+            "domain": "mayurayoga.co.uk",
+            "employee_size": "11 to 50",
+            "job_level": "C-Level",
+            "ilead_grade": "A",
+            "bombora_score": 0,
+            "techno_score": 1,
+            "intent_signal": "C",
+            "country": "United States Minor Outlying Islands"
+        },
+        {
+            "sno": 481,
+            "industry": "Managed-Services-Provider",
+            "topic": "Data Automation",
+            "domain": "lawadv.org.uk",
+            "employee_size": "10001+",
+            "job_level": "C-Level",
+            "ilead_grade": "A",
+            "bombora_score": 0,
+            "techno_score": 1,
+            "intent_signal": "C",
+            "country": "United Kingdom"
+        },
+        {
+            "sno": 1729,
+            "industry": "IT-Consulting",
+            "topic": "Data Automation",
+            "domain": "wrightgroupuk.com",
+            "employee_size": "10001+",
+            "job_level": "Director",
+            "ilead_grade": "D",
+            "bombora_score": 0,
+            "techno_score": 1,
+            "intent_signal": "F",
+            "country": "United States Minor Outlying Islands"
+        },
+        {
+            "sno": 4520,
+            "industry": "Managed-Services-Provider",
+            "topic": "Data Automation",
+            "domain": "cswh.com",
+            "employee_size": "10001+",
+            "job_level": "Director",
+            "ilead_grade": "F",
+            "bombora_score": 0,
+            "techno_score": 1,
+            "intent_signal": "F",
+            "country": "United States"
+        }
+    ]
+}
