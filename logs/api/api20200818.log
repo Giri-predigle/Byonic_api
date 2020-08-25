@@ -1,0 +1,1061 @@
+INFO:root::::::::Post Method :::::::
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 12:48:21] "[31m[1mPOST /api/intent/signal HTTP/1.1[0m" 400 -
+INFO:root::::::::Post Method :::::::
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 12:50:52] "[31m[1mPOST /api/intent/signal HTTP/1.1[0m" 400 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/intent/signal [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 211, in worker
+    ifuture['industries'] = temp['industries']
+KeyError: 'industries'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 12:53:35] "[35m[1mPOST /api/intent/signal HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/intent/signal [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 214, in worker
+    ifuture['jobLevels'] = temp['jobLevels']
+KeyError: 'jobLevels'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 12:54:56] "[35m[1mPOST /api/intent/signal HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/intent/signal [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 214, in worker
+    ifuture['jobLevels'] = temp['jobLevels']
+KeyError: 'jobLevels'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 12:58:53] "[35m[1mPOST /api/intent/signal HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/intent/signal [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 214, in worker
+    ifuture['jobLevels'] = temp['jobLevels']
+KeyError: 'jobLevels'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:00:15] "[35m[1mPOST /api/intent/signal HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/intent/signal [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 214, in worker
+    ifuture['jobLevels'] = temp['jobLevels']
+KeyError: 'jobLevels'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:04:27] "[35m[1mPOST /api/intent/signal HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/intent/signal [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 213, in worker
+    ifuture['jobLevels'] = temp['jobLevels']
+KeyError: 'jobLevels'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:11:10] "[35m[1mPOST /api/intent/signal HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:12:56] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:28:58] "[35m[1mPOST /api/intent/signal HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:37:12] "[35m[1mPOST /api/intent/signal HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:37:15] "[35m[1mPOST /api/intent/signal HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/intent/signal [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 203, in worker
+    temp = process_request(current_request)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 144, in process_request
+    resp_data = Model.model()
+  File "C:\Users\giridhar.kannappan\PycharmProjects\side_Api\scripts\model.py", line 94, in model
+    if str(req_topic) > 0:
+TypeError: '>' not supported between instances of 'str' and 'int'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:47:28] "[35m[1mPOST /api/intent/signal HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:48:30] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:49:11] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:50:03] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:50:18] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:55:29] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:59:30] "[31m[1mGET /api/intent/signal HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:59:36] "[31m[1mGET /api/intent/signal HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 13:59:38] "[31m[1mGET /api/intent/signal HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:03:51] "[31m[1mGET /api/intent/signal HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:04:10] "[31m[1mGET /api/intent/signal HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:06:07] "[31m[1mGET /api/intent/signal HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:07:13] "[31m[1mGET /api/intent/signal HTTP/1.1[0m" 405 -
+INFO:root::::::::Post Method :::::::
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:08:00] "[35m[1mPOST /api/intent/signal HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:19:42] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:21:03] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+ERROR:flask.app:Exception on /api/sidenav/topics [GET]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\werkzeug\test.py", line 1096, in run_wsgi_app
+    app_rv = app(environ, start_response)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+TypeError: worker() takes 0 positional arguments but 2 were given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\werkzeug\test.py", line 1096, in run_wsgi_app
+    app_rv = app(environ, start_response)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+TypeError: worker() takes 0 positional arguments but 2 were given
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a function.
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:21:14] "[35m[1mGET /api/sidenav/topics HTTP/1.1[0m" 500 -
+ERROR:flask.app:Exception on /api/sidenav/topics [GET]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\werkzeug\test.py", line 1096, in run_wsgi_app
+    app_rv = app(environ, start_response)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+TypeError: worker() takes 0 positional arguments but 2 were given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\werkzeug\test.py", line 1096, in run_wsgi_app
+    app_rv = app(environ, start_response)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+TypeError: worker() takes 0 positional arguments but 2 were given
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a function.
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:21:16] "[35m[1mGET /api/sidenav/topics HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:33:16] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:34:42] "[31m[1mGET /api/sidenav HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:35:04] "[31m[1mGET /api/sidenav HTTP/1.1[0m" 405 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:45:58] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:46:06] "[35m[1mGET /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 14:46:22] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:06:35] "[35m[1mGET /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:06:38] "[35m[1mGET /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:25:08] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:25:40] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+ERROR:flask.app:Exception on /api/sidenav/topics [GET]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:26:16] "[35m[1mGET /api/sidenav/topics HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+ERROR:flask.app:Exception on /api/sidenav/topics [GET]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:26:31] "[35m[1mGET /api/sidenav/topics HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+ERROR:flask.app:Exception on /api/sidenav/topics [GET]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 255, in topics
+    topic = resp['sidenav']['topics']
+TypeError: 'Response' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:35:18] "[35m[1mGET /api/sidenav/topics HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:35:34] "[33mPOST /api/sidenav/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:35:38] "[33mPOST /api/sidenav/ HTTP/1.1[0m" 404 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:36:35] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:36:45] "[37mPOST /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:36:54] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:40:29] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+ERROR:flask.app:Exception on /api/sidenav/topics [GET]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 255, in topics
+    topic = data['sidenav']['topics']
+TypeError: 'Response' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:40:38] "[35m[1mGET /api/sidenav/topics HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+ERROR:flask.app:Exception on /api/sidenav/topics [GET]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 255, in topics
+    topic = data['sidenav']['topics']
+TypeError: 'Response' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:40:42] "[35m[1mGET /api/sidenav/topics HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+ERROR:flask.app:Exception on /api/sidenav/topics [GET]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 255, in topics
+    topic = data['sidenav']['topics']
+TypeError: 'Response' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:40:43] "[35m[1mGET /api/sidenav/topics HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav/topics [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 255, in topics
+    topic = data['sidenav']['topics']
+TypeError: 'Response' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:40:54] "[35m[1mPOST /api/sidenav/topics HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:45:22] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 203, in worker
+    temp = process_request(current_request)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 145, in process_request
+    resp_data = Model.model()
+  File "C:\Users\giridhar.kannappan\PycharmProjects\side_Api\scripts\model.py", line 133, in model
+    topic_list = topic.to_diFct('list')
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\generic.py", line 5130, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'to_diFct'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:49:22] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 203, in worker
+    temp = process_request(current_request)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 145, in process_request
+    resp_data = Model.model()
+  File "C:\Users\giridhar.kannappan\PycharmProjects\side_Api\scripts\model.py", line 133, in model
+    topic_list = topic.to_diFct('list')
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\generic.py", line 5130, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'to_diFct'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:50:19] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 203, in worker
+    temp = process_request(current_request)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 144, in process_request
+    resp_data = Model.model()
+  File "C:\Users\giridhar.kannappan\PycharmProjects\side_Api\scripts\model.py", line 133, in model
+    topic_list = topic.to_diFct('list')
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\generic.py", line 5130, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'to_diFct'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:50:54] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 203, in worker
+    temp = process_request(current_request)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 144, in process_request
+    resp_data = Model.model()
+  File "C:\Users\giridhar.kannappan\PycharmProjects\side_Api\scripts\model.py", line 133, in model
+    topic_list = topic.to_diFct('list')
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\generic.py", line 5130, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'to_diFct'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:51:26] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 203, in worker
+    temp = process_request(current_request)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 144, in process_request
+    resp_data = Model.model()
+  File "C:\Users\giridhar.kannappan\PycharmProjects\side_Api\scripts\model.py", line 133, in model
+    topic_list = topic.to_diFct('list')
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\generic.py", line 5130, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'to_diFct'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:55:15] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 203, in worker
+    temp = process_request(current_request)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 144, in process_request
+    resp_data = Model.model()
+  File "C:\Users\giridhar.kannappan\PycharmProjects\side_Api\scripts\model.py", line 133, in model
+    topic_list = topic.to_diFct('list')
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\generic.py", line 5130, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'to_diFct'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:55:26] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 16:57:08] "[33mPOST / HTTP/1.1[0m" 404 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 203, in worker
+    temp = process_request(current_request)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 144, in process_request
+    resp_data = Model.model()
+  File "C:\Users\giridhar.kannappan\PycharmProjects\side_Api\scripts\model.py", line 133, in model
+    topic_list = topic.to_diFct('list')
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\generic.py", line 5130, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'to_diFct'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:02:12] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 203, in worker
+    temp = process_request(current_request)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 144, in process_request
+    resp_data = Model.model()
+  File "C:\Users\giridhar.kannappan\PycharmProjects\side_Api\scripts\model.py", line 133, in model
+    topic_list = topic.to_diFct('list')
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\generic.py", line 5130, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'to_diFct'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:06:41] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 203, in worker
+    temp = process_request(current_request)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 144, in process_request
+    resp_data = Model.model()
+  File "C:\Users\giridhar.kannappan\PycharmProjects\side_Api\scripts\model.py", line 133, in model
+    topic_list = topic.to_diFct('list')
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\generic.py", line 5130, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'to_diFct'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:07:21] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 204, in worker
+    temp = process_request(current_request)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 144, in process_request
+    resp_data = Model.model()
+  File "C:\Users\giridhar.kannappan\PycharmProjects\side_Api\scripts\model.py", line 133, in model
+    topic_list = topic.to_diFct('list')
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\generic.py", line 5130, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'to_diFct'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:07:57] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 203, in worker
+    temp = process_request(current_request)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 144, in process_request
+    resp_data = Model.model()
+  File "C:\Users\giridhar.kannappan\PycharmProjects\side_Api\scripts\model.py", line 133, in model
+    topic_list = topic.to_diFct('list')
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\generic.py", line 5130, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'to_diFct'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:14:11] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:18:20] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:18:51] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:21:43] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:21:52] "[33mGET /api/sidenav/topics HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:21:57] "[33mGET /api/sidenav/topics HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:21:58] "[33mGET /api/sidenav/topics HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:21:59] "[33mGET /api/sidenav/topics HTTP/1.1[0m" 404 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:23:25] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:23:33] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 17:23:35] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:00:53] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+ERROR:flask.app:Exception on /api/sidenav/topics [GET]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 255, in topics
+    file = open(output_json_l)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\giridhar.kannappan\\PycharmProjects\\side_Api\\test_storage\\sidenav_response-20200818-180104.json'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:01:04] "[35m[1mGET /api/sidenav/topics HTTP/1.1[0m" 500 -
+ERROR:flask.app:Exception on /api/sidenav/topics [GET]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 255, in topics
+    file = open(output_json_l)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\giridhar.kannappan\\PycharmProjects\\side_Api\\test_storage\\sidenav_response-20200818-180107.json'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:01:07] "[35m[1mGET /api/sidenav/topics HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:08:24] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:08:33] "[31m[1mPOST /api/sidenav/topics HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:08:41] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:26:31] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:27:47] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:29:23] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:34:54] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:35:46] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:39:30] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:47:20] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:47:59] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:54:25] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:58:14] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 18:59:09] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:00:03] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:03:40] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:04:35] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:05:37] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:07:09] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:07:56] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:08:05] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:18:46] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:18:54] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:19:00] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:20:55] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:21:07] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:21:12] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:26:26] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:26:36] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:26:40] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:26:45] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:26:46] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:26:48] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:26:50] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:29:44] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:29:55] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:30:00] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:31:22] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:31:28] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:31:40] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:44:06] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:44:12] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:48:59] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:49:09] "[31m[1mGET /api/sidenav/topics HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:49:16] "[31m[1mGET /api/sidenav/topics HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:49:29] "[31m[1mGET /api/sidenav/topics HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:49:32] "[31m[1mGET /api/sidenav/topics HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:49:40] "[31m[1mGET /api/sidenav/topics HTTP/1.1[0m" 400 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:50:40] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:50:51] "[33mGET /api/sidenav/topics HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:50:56] "[33mGET /api/sidenav/topics HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:50:58] "[33mGET /api/sidenav/topics HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:51:07] "[31m[1mGET /topics HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:51:22] "[33mGET /api/sidenav/topics HTTP/1.1[0m" 404 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:52:23] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:52:29] "[31m[1mGET /api/sidenav/topics HTTP/1.1[0m" 400 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:53:46] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:53:52] "[31m[1mGET /api/sidenav/topics HTTP/1.1[0m" 400 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:54:48] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:54:57] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 19:55:00] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:00:35] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:00:47] "[31m[1mGET /api/sidenav/form_login HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:00:52] "[31m[1mGET /api/sidenav/form_login HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:00:53] "[31m[1mGET /api/sidenav/form_login HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:00:56] "[31m[1mPOST /api/sidenav/form_login HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:00:58] "[31m[1mPOST /api/sidenav/form_login HTTP/1.1[0m" 400 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:01:56] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:02:37] "[31m[1mGET /api/sidenav/form_login HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:02:40] "[31m[1mGET /api/sidenav/form_login HTTP/1.1[0m" 400 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:04:36] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:04:44] "[37mPOST /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:04:54] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:05:50] "[37mPOST /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:11:20] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:11:26] "[37mPOST /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:11:31] "[37mPOST /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:12:27] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:12:32] "[37mPOST /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:13:48] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:13:53] "[37mPOST /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:13:57] "[37mPOST /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:16:12] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:16:17] "[37mPOST /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:17:17] "[31m[1mPOST /api/sidenav/form_login HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:17:35] "[37mPOST /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:17:40] "[37mPOST /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:18:55] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:18:58] "[37mPOST /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:19:05] "[37mPOST /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:39:56] "[35m[1mGET /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:40:10] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav/topics [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\indexes\base.py", line 2889, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 97, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'topic'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 324, in worker_topic
+    temp = process_request_topic(current_request)
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_navigation.py", line 270, in process_request_topic
+    df = df[df['topic'].str.contains(req_topic, case=False)]
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\frame.py", line 2899, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\pandas\core\indexes\base.py", line 2891, in get_loc
+    raise KeyError(key) from err
+KeyError: 'topic'
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:40:35] "[35m[1mPOST /api/sidenav/topics HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 20:40:48] "[31m[1mPOST /api/sidenav/topics HTTP/1.1[0m" 400 -

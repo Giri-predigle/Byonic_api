@@ -1,0 +1,67 @@
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:39:36] "[37mGET /api/sidenav/emp_sizes HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:41:24] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:41:45] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:42:00] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:42:12] "[37mGET /api/sidenav/countries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:42:22] "[37mGET /api/sidenav/joblevels HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:42:29] "[37mGET /api/sidenav/emp_sizes HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:45:58] "[37mGET /api/sidenav/emp_sizes HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:46:09] "[37mGET /api/sidenav/joblevels HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:47:14] "[37mGET /api/sidenav/joblevels HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:47:54] "[37mGET /api/sidenav/countries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:48:18] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:48:32] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:48:39] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:49:15] "[37mGET /api/sidenav/joblevels HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:50:16] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 11:50:43] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 12:04:19] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 12:49:14] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 12:50:32] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 12:51:41] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+ERROR:flask.app:Exception on /api/sidenav/industries [GET]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/byonic_api.py", line 227, in api_industry
+    books = {'industries': database['industries']}      # database connectivity
+TypeError: 'Database' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 12:53:20] "[35m[1mGET /api/sidenav/industries HTTP/1.1[0m" 500 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 12:54:32] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -

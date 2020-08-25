@@ -1,0 +1,81 @@
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 210, in worker
+    ifuture['industries'] = temp['industries']
+KeyError: 'industries'
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2020 17:20:59] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 213, in worker
+    ifuture['job_levels'] = temp['job_levels']
+KeyError: 'job_levels'
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2020 17:22:53] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+ERROR:flask.app:Exception on /api/sidenav [POST]
+Traceback (most recent call last):
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\giridhar.kannappan\anaconda3\envs\tensorflow\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:/Users/giridhar.kannappan/PycharmProjects/side_Api/side_api.py", line 213, in worker
+    ifuture['job_levels'] = temp['job_levels']
+KeyError: 'job_levels'
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2020 17:23:06] "[35m[1mPOST /api/sidenav HTTP/1.1[0m" 500 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2020 17:27:27] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2020 17:27:58] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Number of request to process:2
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2020 17:28:31] "[37mPOST /api/sidenav HTTP/1.1[0m" 200 -

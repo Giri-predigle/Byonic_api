@@ -1,0 +1,33 @@
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:All
+INFO:root:Request Hash => predigle-20200825-31a72ac7a98f73c09168fbc9311d7cef
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2020 17:23:45] "[37mGET /api/intent/signal-get HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': [], 'topics': ['Investment Software', 'Local Government', 'Legal', 'Construction', 'Environmental Controls', 'Server Hardware', 'Call Center Management'], 'employee_sizes': [], 'job_levels': [], 'countries': []}
+INFO:root:Request Hash => predigleai_20200731_39530ad99e74f75e8c57bc3c4a1c9647
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2020 18:26:10] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': [], 'topics': [], 'employee_sizes': [], 'job_levels': [], 'countries': []}
+INFO:root:Request Hash => predigleai_20200731_43dae10e0e2fedcedcd25c26d89dcf74
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2020 18:26:35] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:root:countries
+INFO:root:Request Hash => country-20200825-fad11a680f0e629ed323eaa15924e564
+INFO:root:Redis Exists => 1
+INFO:root:request ran successfully
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2020 18:28:19] "[37mGET /api/sidenav/countries HTTP/1.1[0m" 200 -

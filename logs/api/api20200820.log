@@ -1,0 +1,113 @@
+INFO:root::::::::Post Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 15:34:14] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 15:37:22] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 15:44:48] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 15:44:53] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 15:45:05] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 15:45:09] "[33mGET /api/sidenav/topic HTTP/1.1[0m" 404 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 15:45:16] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 15:49:25] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 15:52:37] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 15:54:42] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 15:55:17] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 15:58:08] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:01:23] "[37mGET /api/sidenav/countries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:05:39] "[37mGET /api/sidenav/joblevels HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:08:46] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:08:53] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:09:01] "[37mGET /api/sidenav/countries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:09:11] "[37mGET /api/sidenav/joblevels HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:09:19] "[37mGET /api/sidenav/emp_sizes HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:30:15] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:31:14] "[37mGET /api/sidenav/emp_sizes HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:37:44] "[37mGET /api/sidenav/emp_sizes HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:38:06] "[37mGET /api/sidenav/emp_sizes HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:40:27] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:41:16] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:45:40] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:46:35] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:46:58] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:47:11] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:49:55] "[37mGET /api/sidenav/emp_sizes HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:50:57] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:52:03] "[37mGET /api/sidenav/emp_sizes HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:55:09] "[37mGET /api/sidenav/emp_sizes HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:55:22] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:55:34] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:56:09] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:57:37] "[37mGET /api/sidenav/industries HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:57:56] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:58:34] "[37mGET /api/sidenav/emp_sizes HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:59:00] "[37mGET /api/sidenav/emp_sizes HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:59:27] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 16:59:41] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:00:29] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:00:54] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:01:15] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:01:58] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:02:13] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:02:33] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:02:48] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:04:29] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:04:34] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:04:45] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:04:56] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:05:19] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:05:50] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:06:03] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 17:06:21] "[37mGET /api/sidenav/topics HTTP/1.1[0m" 200 -

@@ -1,0 +1,217 @@
+INFO:root::::::::GET Method :::::::
+INFO:root:job-levels
+INFO:root:Request Hash => jobs-20200824-1a033dc8271323c1f01d9c0485904573
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 10:24:26] "[37mGET /api/sidenav/joblevels HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:root:employee_size
+INFO:root:Request Hash => employees-20200824-d04777d3ebe7b80689e473abf676db63
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 17:00:53] "[37mGET /api/sidenav/emp_sizes HTTP/1.1[0m" 200 -
+INFO:root::::::::GET Method :::::::
+INFO:root:All
+INFO:root:Request Hash => predigle-20200824-8e90b81ef2f235766d0c78f046364430
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 17:10:36] "[37mGET /api/sidenav HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['IT-Consulting', 'Managed-Services-Provider'], 'topics': ['Data Automation', 'Sales Automation'], 'employee_sizes': ['10001+', '11 to 50'], 'job_levels': ['C-Level', 'Director'], 'countries': ['United States', 'United Kingdom']}
+INFO:root:Request Hash => predigleai_20200731_8b62c7c472a245e0d49dcf372610998e
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 17:10:56] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Security and Investigations', 'Health, Wellness and Fitness', 'Hospitality', 'Point-of-Sale-Provider'], 'topics': ['Investment Software', 'Local Government', 'Legal', 'Construction', 'Environmental Controls', 'Server Hardware', 'Call Center Management', 'Data Automation'], 'countries': ['United States', 'United Kingdom'], 'job_levels': ['C-Level', 'Director'], 'employee_sizes': ['10001+', '11 to 50']}
+INFO:root:Request Hash => predigleai_20200731_878b3ee257515a37d58c7d9316bdcaa5
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 17:46:22] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Security and Investigations', 'Health, Wellness and Fitness', 'Hospitality', 'Point-of-Sale-Provider'], 'topics': ['Investment Software', 'Local Government', 'Legal', 'Construction', 'Environmental Controls', 'Server Hardware', 'Call Center Management', 'Data Automation'], 'countries': ['United Kingdom'], 'job_levels': ['C-Level', 'Director'], 'employee_sizes': ['10001+', '11 to 50']}
+INFO:root:Request Hash => predigleai_20200731_cfcd746104638c1fcac7399875ff59e3
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 17:46:41] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Security and Investigations', 'Health, Wellness and Fitness', 'Hospitality', 'Point-of-Sale-Provider'], 'topics': ['Investment Software', 'Local Government', 'Legal', 'Construction', 'Environmental Controls', 'Server Hardware', 'Call Center Management', 'Data Automation'], 'countries': ['Andorra'], 'job_levels': ['C-Level', 'Director'], 'employee_sizes': ['10001+', '11 to 50']}
+INFO:root:Request Hash => predigleai_20200731_b585c1ddc24f33f7cad0b35b55944cc1
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 17:47:12] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 17:47:30] "[31m[1mPOST /api/intent/signal HTTP/1.1[0m" 400 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Security and Investigations', 'Health, Wellness and Fitness', 'Hospitality', 'Point-of-Sale-Provider'], 'topics': ['Investment Software', 'Local Government', 'Legal', 'Construction', 'Environmental Controls', 'Server Hardware', 'Call Center Management', 'Data Automation'], 'countries': ['Andorra'], 'job_levels': '', 'employee_sizes': ['10001+', '11 to 50']}
+INFO:root:Request Hash => predigleai_20200731_c1861282522c809754b92c0535d2be45
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 17:47:39] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Security and Investigations', 'Health, Wellness and Fitness', 'Hospitality', 'Managed-Servoce-Provider'], 'topics': ['Investment Software', 'Local Government', 'Legal', 'Construction', 'Environmental Controls', 'Server Hardware', 'Call Center Management', 'Data Automation'], 'countries': ['Andorra'], 'job_levels': '', 'employee_sizes': ['10001+', '11 to 50']}
+INFO:root:Request Hash => predigleai_20200731_60b02c7829043bd3cd0d7972528e7dab
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 17:47:59] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 17:48:31] "[31m[1mPOST /api/intent/signal HTTP/1.1[0m" 400 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Security and Investigations', 'Health, Wellness and Fitness', 'Hospitality', 'Managed-Servoce-Provider'], 'topics': ['Investment Software', 'Local Government', 'Legal', 'Construction', 'Environmental Controls', 'Server Hardware', 'Call Center Management', 'Data Automation'], 'countries': ['Andorra'], 'job_levels': '', 'employee_sizes': ['10001+']}
+INFO:root:Request Hash => predigleai_20200731_1403fb5e71e44074e87d68cb2eb65b56
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 17:48:45] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Security and Investigations', 'Health, Wellness and Fitness', 'Hospitality', 'Managed-Servoce-Provider', 'IT-Solutions-Provider'], 'topics': ['Investment Software', 'Local Government', 'Legal', 'Construction', 'Environmental Controls', 'Server Hardware', 'Call Center Management', 'Data Automation'], 'countries': ['Andorra'], 'job_levels': '', 'employee_sizes': ['10001+']}
+INFO:root:Request Hash => predigleai_20200731_85b2ac471253617a95b62474ba798d61
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 17:49:17] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Managed-Servoce-Provider', 'IT-Solutions-Provider'], 'topics': ['Investment Software', 'Local Government', 'Legal', 'Construction', 'Environmental Controls', 'Server Hardware', 'Call Center Management', 'Data Automation'], 'countries': ['Andorra'], 'job_levels': '', 'employee_sizes': ['10001+']}
+INFO:root:Request Hash => predigleai_20200731_9df9b227ea6021e58c24d273424b0ee6
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 18:01:45] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Managed-Servoce-Provider', 'IT-Solutions-Provider'], 'topics': ['Backup and Recovery', 'Data Automation'], 'countries': ['Andorra'], 'job_levels': '', 'employee_sizes': ['10001+']}
+INFO:root:Request Hash => predigleai_20200731_e04ff49441a798e82ac68626d4f806b8
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 18:02:25] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Managed-Servoce-Provider', 'IT-Solutions-Provider'], 'topics': ['Backup and Recovery', 'Data Automation'], 'countries': ['Andorra'], 'job_levels': '', 'employee_sizes': ['10001+', '5001 to 10000']}
+INFO:root:Request Hash => predigleai_20200731_e56fd302f708619c1ea0ca61d0082415
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 18:02:48] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 18:03:22] "[31m[1mPOST /api/intent/signal HTTP/1.1[0m" 400 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Managed-Servoce-Provider', 'IT-Solutions-Provider'], 'topics': ['Backup and Recovery', 'Data Automation'], 'countries': ['Andorra'], 'job_levels': ['C-Level'], 'employee_sizes': ['10001+', '5001 to 10000']}
+INFO:root:Request Hash => predigleai_20200731_a487ca89b284c54286f8a566f7e04da7
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 18:03:28] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Managed-Servoce-Provider', 'IT-Solutions-Provider'], 'topics': ['Backup and Recovery', 'Data Automation'], 'countries': ['Andorra', 'Gambia'], 'job_levels': ['C-Level'], 'employee_sizes': ['10001+', '5001 to 10000']}
+INFO:root:Request Hash => predigleai_20200731_4157acf712e1b5b2773b9577a986f215
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 18:03:48] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Managed-Service-Provider', 'IT-Solutions-Provider'], 'topics': ['Backup and Recovery', 'Data Automation'], 'countries': ['Andorra', 'Gambia'], 'job_levels': ['C-Level'], 'employee_sizes': ['10001+', '5001 to 10000']}
+INFO:root:Request Hash => predigleai_20200731_818dd9cf7311634ebb2bbd4ab2926343
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 18:04:16] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Managed-Services-Provider', 'IT-Solutions-Provider'], 'topics': ['Backup and Recovery', 'Data Automation'], 'countries': ['Andorra', 'Gambia'], 'job_levels': ['C-Level'], 'employee_sizes': ['10001+', '5001 to 10000']}
+INFO:root:Request Hash => predigleai_20200731_609ebfcc6d1a332ed2ca6dd5743edcd7
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 18:04:40] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Managed-Services-Provider', 'IT-Solutions-Provider'], 'topics': ['Backup and Recovery', 'Data Automation'], 'countries': ['Andorra', 'Gambia', 'Ghana'], 'job_levels': ['C-Level'], 'employee_sizes': ['10001+', '5001 to 10000']}
+INFO:root:Request Hash => predigleai_20200731_79f273c9cd3a5d2c1328ace1548d8af3
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 18:05:02] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Managed-Services-Provider', 'IT-Solutions-Provider'], 'topics': ['Backup and Recovery', 'Data Automation'], 'countries': ['Andorra', 'Gambia', 'Ghana'], 'job_levels': ['C-Level'], 'employee_sizes': ['10001+', '5001 to 10000', '501 to 1000']}
+INFO:root:Request Hash => predigleai_20200731_9f3763750b1c9b11c76de840d048ca62
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 18:05:30] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Managed-Services-Provider', 'IT-Solutions-Provider'], 'topics': ['Backup and Recovery', 'Data Automation'], 'countries': ['Andorra', 'Gambia', 'Ghana'], 'job_levels': ['C-Level'], 'employee_sizes': ['10001+', '5001 to 10000', '501 to 1000']}
+INFO:root:Request Hash => predigleai_20200731_9f3763750b1c9b11c76de840d048ca62
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 18:32:25] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
+INFO:root::::::::Post Method :::::::
+INFO:root:Request came in
+INFO:root:Number of request to process:2
+INFO:root:processing request no: 0
+INFO:root:current request : {'industries': ['Managed-Services-Provider', 'IT-Solutions-Provider'], 'topics': ['Backup and Recovery', 'Data Automation'], 'countries': ['Andorra', 'Gambia', 'Ghana'], 'job_levels': ['C-Level'], 'employee_sizes': ['10001+', '5001 to 10000', '501 to 1000']}
+INFO:root:Request Hash => predigleai_20200731_9f3763750b1c9b11c76de840d048ca62
+INFO:root:Redis Exists => 0
+INFO:root:request ran successfully
+INFO:root:None
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 18:32:40] "[37mPOST /api/intent/signal HTTP/1.1[0m" 200 -
